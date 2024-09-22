@@ -1,0 +1,101 @@
+*{
+	font-family: 'Times New Roman', Times, serif;
+}
+.main{
+	text-align: center;
+}
+
+/* for mobile */
+@media(max-width: 390px){
+    .box1{
+		height: fit-content;
+		width: 100%;
+		padding: 10px;
+		margin: 5px;
+	}
+	input{
+		font-size: 1.2rem;
+		color: peru;
+		border: 1px solid purple;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	button{
+		font-size: 1.2rem;
+		color: peru;
+		border: 1px solid purple;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	button:hover{
+		color: white;
+		background-color: purple;
+		box-shadow: 2px 2px 2px black;
+	}
+	.box3{
+		height: fit-content;
+		width: 100%;
+		margin-top: 10px;
+		border-radius: 10px;
+		border: 1px solid peru;
+		box-shadow: 2px 2px 2px purple;
+		transition-duration: 2s;
+	}
+	.box4{
+		height: fit-content;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 10px;
+		border: 1px solid peru;
+		box-shadow: 2px 2px 2px purple;
+		transition-duration: 2s;
+	}
+}
+
+/* For Desktop */
+@media(min-width: 390px){
+    .box1{
+		height: fit-content;
+		width: 100%;
+		margin: 40px;
+		padding: 20px;
+	}
+	input{
+		font-size: 1.2rem;
+		color: peru;
+		border: 1px solid purple;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	button{
+		font-size: 1.2rem;
+		color: peru;
+		border: 1px solid purple;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	button:hover{
+		color: white;
+		background-color: purple;
+		box-shadow: 2px 2px 2px black;
+	}
+	.box3{
+		height: fit-content;
+		width: 100%;
+		margin: 20px;
+		border-radius: 20px;
+		border: 1px solid peru;
+		box-shadow: 2px 2px 2px purple;
+		transition-duration: 2s;
+	}
+	.box4{
+		height: fit-content;
+		width: 100%;
+		margin: 20px;
+		border-radius: 20px;
+		border: 1px solid peru;
+		box-shadow: 2px 2px 2px purple;
+		transition-duration: 2s;
+	}
+}
